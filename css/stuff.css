@@ -1,0 +1,169 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 3px white solid;
+	border-radius: 50%;
+	height: 15vh;
+	width: 15vh;
+}
+
+.menu {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	grid-gap: 2px;
+	padding: 10px;
+	color: white;
+	border: 3px white solid;
+}
+
+h1 {
+	text-align: center;
+	font-family: Bebas Neue;
+	color: white;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: black;
+}
+
+.showcase {
+	height: 100vh;
+	border: 3px white solid;
+	margin-bottom: 15px;
+}
+
+.container {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+}
+
+.korean {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.striped {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.vintage {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.statement {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.polo {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.item {
+	border: 3px white solid;
+	height: 50vh;
+}
+
+.item1 {
+	background-image: url(../images/affogato.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.text {
+	height: 10vh;
+	text-align: center;
+	font-family: Bebas Neue;
+	color: white;
+	font-size: 50px;
+}
+
+.item2 {
+	background-image: url(../images/caffe-mocha.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item3 {
+	background-image: url(../images/cappuccino.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item4 {
+	background-image: url(../images/espresso.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item5 {
+	background-image: url(../images/flat-white.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item6 {
+	background-image: url(../images/iced-coffee.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item7 {
+	background-image: url(../images/irishcoffee.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item8 {
+	background-image: url(../images/latte.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item9 {
+	background-image: url(../images/machiatto.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.footer {
+	background-color: white;
+	margin-top: 1200px;
+	height: 50px;
+	width: 100%;
+}
